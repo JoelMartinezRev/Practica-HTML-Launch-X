@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PEDIDO</title>
+        <link rel="stylesheet" href="CSS/style2.css">
+    </head>
+    <body>
+
+        <main class="contenedor">
+
+        <h1>PASTELERÍA "MINNIE"</h1>
+        <img src="../PRACTICA PASTELERIA/img/P-MINNIE.png" alt="PASTELERÍA MINNIE">
+        <h5>PEDIDO</h5>
+
+        <hr>
+
+        <form class="form">
+
+
+            <h2>Tipos de Pastel</h2>
+            <label for="pasteles">Tipo de Pastel</label>
+            <select id="pasteles" name="pasteles">
+            <option value="Selecciona">Selecciona</option>
+            <option value="tresLeches">Tres Leches</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Vainilla">Vainilla</option>
+            <option value="Limón">Limón</option>
+            <option value="Almendras">Almendras</option>
+            </select><br>
+
+            <hr>
+
+            <h2>Relleno </h2>
+            <input type="checkbox" id="relleno1" name="relleno1" value="Mermelada">
+            <label for="relleno1">Mermelada</label><br>
+            <input type="checkbox" id="relleno2" name="relleno2" value="Ganache">
+            <label for="relleno2">Ganache</label><br>
+            <input type="checkbox" id="relleno3" name="relleno3" value="Crema">
+            <label for="relleno3">Crema para batir</label><br>
+            <input type="checkbox" id="relleno4" name="relleno4" value="Frutas">
+            <label for="relleno4">Frutas</label><br><br>
+            
+            <hr>
+
+            <h2>Cubiertas</h2><br>
+            <input type="radio" id="carameloSuave" name="pasteles" value="carameloSuave">
+            <label for="carameloSuave">Caramelo Suave</label><br>
+            <input type="radio" id="Frutas" name="pasteles" value="Frutas">
+            <label for="Frutas">Frutas</label><br>
+            <input type="radio" id="Fondant" name="pasteles" value="Fondant">
+            <label for="Fondant">Fondant</label><br>
+            <input type="radio" id="Chantilly" name="pasteles" value="Chantilly">
+            <label for="Chantilly">Chantilly</label><br>
+            <input type="radio" id="Merengue" name="pasteles" value="Merengue">
+            <label for="Merengue">Merengue</label><br><br>
+
+            <hr>
+            
+            <h2>Decoración Especial</h2>
+            <label for="decoracionEsp">Texto a su gusto</label>
+            <input type="text" id="decoracionEsp" name="decoracionEsp">
+
+            <hr>
+
+            <h2>Figuras</h2>
+            <input type="radio" id="BobEsponja" name="figuras" value="BobEsponja">
+            <label for="BobEsponja">Bob Esponja</label><br>
+            <input type="radio" id="Patricio" name="figuras" value="Patricio">
+            <label for="Patricio">Patricio</label><br>
+            <input type="radio" id="Messi" name="figuras" value="Messi">
+            <label for="Messi">Messi</label><br>
+            <input type="radio" id="cr7" name="figuras" value="cr7">
+            <label for="cr7">Cristiano Ronaldo CR7</label><br>
+
+            <label for="otro">Otro</label>
+            <input type="text" id="otro" name="figuras">
+
+        </form><br><br>      
+        
+        <hr>
+
+        <footer>
+            <p>Av. San Pablo 180, Col. Reynosa Tamaulipas, Alcaldía Azcapotzalco, C.P. 02200, CDMX
+                Teléfono: 5948783841
+                Horario de atención: 10:00 - 17:00
+            </p>
+        </footer>
+    
+        </main>
+    </body>
+    </html>
